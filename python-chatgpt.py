@@ -32,9 +32,9 @@ request_headers = {
 # Set the request data to include the OpenAI model(which can be changed based on use case), the prompt, and other generation parameters
 request_data = {
    "model": "text-davinci-003",
-   "prompt": f"write python script to {args.prompt}. Provide only the code, no text.",
-   "max_tokens": 100,
-   "temperature": 0.2
+   "prompt": f"write python script to {args.prompt}. Provide full documentation.",
+   "max_tokens": 1000,
+   "temperature": 0.8
    }
    
 
